@@ -118,11 +118,6 @@ def paul4():
     return render_template("/paul/paul4.html")
 
 
-@app.route("/paul5/")
-def paul5():
-    return render_template("/paul/paul5.html")
-
-
 @app.route("/paul_end/")
 def paul_end():
     return render_template("/paul/paul_end.html")
