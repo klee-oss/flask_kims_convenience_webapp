@@ -18,11 +18,25 @@ h1 {
 
 .cbox {
   width: 150px;
+  height: 30px;
   border: 15px solid green;
   padding: 50px;
-  margin: 20px;
+  margin: auto;
   position: absolute;
-  top: 50%;
-  right: 50%;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
   background-color: white;
+}
+
+.text {
+	text-align: center;
+	position: relative;
+	 top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
 }

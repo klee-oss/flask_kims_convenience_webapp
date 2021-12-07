@@ -16,6 +16,8 @@ h1 {
   display: inline-block;
 }
 
+
+
 .lbox {
   width: 150px;
   border: 15px solid green;
@@ -36,4 +38,14 @@ h1 {
   top: 40%;
   right: 30%;
   background-color: white;
+}
+
+.text {
+	margin: auto;
+	text-align: center;
+	position: relative;
+	 top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
 }

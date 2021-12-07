@@ -1,9 +1,4 @@
 @font-face {
-    font-family: 'AmaticSC';
-    src: url('AmaticSC-Regular.ttf');
-}
-
-@font-face {
     font-family: 'AmaticSCB';
     src: url('AmaticSC-Bold.ttf');
 }
@@ -23,77 +18,84 @@ body {
 
 img {
     float: left;
-    width:  400px;
-    height: 400px;
+    width:  370px;
+    height: 370px;
     object-fit: cover;
+}
+
+h1 {
+	font-family: 'AmaticSCB';
+	font-size: 60px;
+	color: white;
+	background-color: black;
 }
 
 .ins {
 	position: absolute;
-	top: 46.2%;
+	top: 48.2%;
 	left: 7%;
 	background-color: black;
 }
 
 .simu {
 	position: absolute;
-	top: 46.2%;
+	top: 48.2%;
 	left: 25%;
 	background-color: black;
 }
 
 .jean {
 	position: absolute;
-	top: 46.2%;
+	top: 48.2%;
 	left: 48%;
 	background-color: black;
 }
 
 .paul {
 	position: absolute;
-	top: 46.2%;
+	top: 48.2%;
 	left: 68%;
 	background-color: black;
 }
 
 .kev {
 	position: absolute;
-	top: 46.2%;
-	left: 86%;
+	top: 48.2%;
+	left: 88%;
 	background-color: black;
 }
 
 .ins_sub {
 	position: absolute;
-	top: 50%;
+	top: 52%;
 	left: 7%;
 	background-color: black;
 }
 
 .simu_sub {
 	position: absolute;
-	top: 50%;
-	left: 25%;
+	top: 52%;
+	left: 24%;
 	background-color: black;
 }
 
 .jean_sub {
 	position: absolute;
-	top: 50%;
-	left: 48%;
+	top: 52%;
+	left: 47.5%;
 	background-color: black;
 }
 
 .paul_sub {
 	position: absolute;
-	top: 50%;
+	top: 52%;
 	left: 68%;
 	background-color: black;
 }
 
 .kev_sub {
 	position: absolute;
-	top: 50%;
-	left: 86%;
+	top: 52%;
+	left: 88%;
 	background-color: black;
 }

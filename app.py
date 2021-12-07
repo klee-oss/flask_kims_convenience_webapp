@@ -143,16 +143,6 @@ def kevin3():
     return render_template("/kevin/kevin3.html")
 
 
-@app.route("/kevin4/")
-def kevin4():
-    return render_template("/kevin/kevin4.html")
-
-
-@app.route("/kevin5/")
-def kevin5():
-    return render_template("/kevin/kevin5.html")
-
-
 @app.route("/kevin_end/")
 def kevin_end():
     return render_template("/kevin/kevin_end.html")
@@ -271,16 +261,6 @@ def kevin_no2():
 @app.route("/kevin_no3/")
 def kevin_no3():
     return render_template("/kevin/kevin_no3.html")
-
-
-@app.route("/kevin_no4/")
-def kevin_no4():
-    return render_template("/kevin/kevin_no4.html")
-
-
-@app.route("/kevin_no5/")
-def kevin_no5():
-    return render_template("/kevin/kevin_no5.html")
 
 
 if __name__ == "__main__":
